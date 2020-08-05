@@ -1,0 +1,31 @@
+.card {
+  border: 5px double black;
+  border-radius: 10%;
+  padding: 10px;
+  text-align: center;
+  background-color: cornflowerblue;
+
+  img {
+    background-color: whitesmoke;
+    border-radius: 10%;
+    border: 5px solid black;
+    width: 100%;
+  }
+
+  section {
+    background-color: whitesmoke;
+    border: 5px solid black;
+    border-radius: 10%;
+    text-align: left;
+    padding: 10px;
+
+    p {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h2 {
+      text-transform: capitalize;
+    }
+  }
+}
